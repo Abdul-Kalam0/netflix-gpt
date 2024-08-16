@@ -1,0 +1,14 @@
+# Create react app using create app
+
+    -goto terminal type the following commaand
+        - cd Deskto
+        - npx create-react-app (nam eof app should be in small letter no capital letter) movie-gpt
+          terminal will stall everything
+    -goto tailwind.css go to get started and go framework and select create react app
+        - npm install -D tailwindcss
+        - npx tailwindcss init
+        follow the remaining steps
+
+# We can Create form using Library i.e Formik
+
+# How to do validation form
