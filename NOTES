@@ -12,3 +12,34 @@
 # We can Create form using Library i.e Formik
 
 # How to do validation form
+
+    - useRef() Hooks
+
+# Authentication
+
+    - Need backend(we will we using firebase) and it will to Hosting
+    - Goto Firebase
+        - Click on Get Started
+        - CLick on Create Project
+        - Fill the detail it needed
+        - Tick on enable google analytic
+        - Complete the remaining info ...
+        - Goto Build
+            - Authentication
+                - Enable Email/password authentication
+
+        - execute the command 1 by one
+        - npm install firebase
+        - npm install -g firebase-tools
+    - ecexute (firebase login) command if already login it will show the email else it will ask (y/n) type n enter it will takeU to login
+    - Execute firebase login now it will show the login email
+    - Execete (firebase init) command for configuration
+        - Choose Hoisting: Configure files for firebase Hoisting and .......... click using spacebar for selection and then enter
+        - Choose use an existing project hit enter
+            - Choose the project who are on firebase currently
+                - 1st query ans is (build) 2nd (n) 3rd(n)
+    - Done
+
+    # App Deployment
+    - npm run build (to build the app)
+    - firebase deploy
