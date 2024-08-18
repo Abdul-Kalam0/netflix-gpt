@@ -14,6 +14,7 @@
     - Implemented Sign In/Up Api
     - Create Redux store with userSlice and store the user data into it
     - Update Profile Api Call
+    - BugFix: if the user is not logged in Redirect  /browse to Login page and vice-versa && if logged Out route to the Sign In page
 
 # Features
 

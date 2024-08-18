@@ -8,7 +8,6 @@ import {
   updateProfile,
 } from "firebase/auth"; // form firebase doc
 import { auth } from "../utils/firebase";
-import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
 
@@ -21,7 +20,6 @@ const Login = () => {
 
   // state var for error
   const [errorMessage, setErrorMessage] = useState(null);
-  const navigate = useNavigate();
 
   const dispatch = useDispatch();
   const toggleSignInForm = () => {
@@ -68,16 +66,14 @@ const Login = () => {
                   photoURL: photoURL,
                 })
               );
-              navigate("/browse");
             })
             .catch((error) => {
               // An error occurred
               setErrorMessage(error.message);
             });
 
-          console.log("Sign Up Success");
-
-          //console.log(user);
+          // console.log("Sign Up Success");
+          // console.log(user);
         })
         .catch((error) => {
           const errorCode = error.code;
@@ -95,9 +91,8 @@ const Login = () => {
         .then((userCredential) => {
           // Signed in
           const user = userCredential.user;
-          console.log("Sign In Success");
-          console.log(user);
-          navigate("/browse");
+          //console.log("Sign In Success");
+          // console.log(user);
         })
         .catch((error) => {
           const errorCode = error.code;
