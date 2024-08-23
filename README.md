@@ -15,6 +15,18 @@
     - Create Redux store with userSlice and store the user data into it
     - Update Profile Api Call
     - BugFix: if the user is not logged in Redirect  /browse to Login page and vice-versa && if logged Out route to the Sign In page
+    - Unsubscribe to the onAuthStateChange callback when header component is Unmount(refers to the process of removing the component from the DOM)
+    - Added HardCoded values to the constants file
+    - Registered for TMDP & create an app & get access token
+    - Get data from TMDB now playing movie list API
+    - Custom Hook for nowPlayingMovies
+    - Create MovieSlice
+    - Updated the store with movies data
+    - Fetch data for trailer video
+    - Update the store with trailer video
+    - Custom hook for tailer video
+    - Embeded the Youtube video and make it autoplay
+    - Tailwind classes for design
 
 # Features
 

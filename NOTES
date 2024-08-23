@@ -43,3 +43,8 @@
     # App Deployment
     - npm run build (to build the app)
     - firebase deploy
+
+- Database(TMDB)
+- Login
+- Edit Profile(API in left side)
+- find API key and API access Token
