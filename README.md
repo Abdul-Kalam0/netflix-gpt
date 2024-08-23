@@ -27,6 +27,7 @@
     - Custom hook for tailer video
     - Embeded the Youtube video and make it autoplay
     - Tailwind classes for design
+    - Build SecondaryContainer
 
 # Features
 
