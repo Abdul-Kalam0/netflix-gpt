@@ -28,6 +28,15 @@
     - Embeded the Youtube video and make it autoplay
     - Tailwind classes for design
     - Build SecondaryContainer
+    - Build Movie list
+    - Build Movie Card
+    - TMDB Image CDN URL
+    - Tailwind CSS used for designing
+    - Custom Hooks for Popular and Top Rated Movies
+    - GPT Search feature
+    - GPT Search Bar
+    - Multi-Language Feature in our app
+    - Integrate GPT API's
 
 # Features
 

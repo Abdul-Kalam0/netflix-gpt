@@ -5,6 +5,8 @@ import MainContainer from "./MainContainer";
 import SecondaryContainer from "./SecondaryContainer";
 import usePopulaMovies from "../hooks/usePopularMovies";
 import useTopRatedMovies from "../hooks/useTopRatedMovies";
+import GptSearch from "./GptSearch";
+import { useSelector } from "react-redux";
 
 const Browse = () => {
   // fetch nowPlayingMovies data from TMDB  and update store by creating the custom hook.
@@ -13,11 +15,20 @@ const Browse = () => {
   usePopulaMovies();
   // fetch usePopulaMovies data from TMDB  and update store by creating the custom hook.
   useTopRatedMovies();
+
+  const showGptSearch = useSelector((store) => store.gpt.showGptSearch);
   return (
     <div>
       <Header />
-      <MainContainer />
-      <SecondaryContainer />
+      {showGptSearch ? (
+        <GptSearch />
+      ) : (
+        <>
+          <MainContainer />
+          <SecondaryContainer />
+        </>
+      )}
+
       {/*
         MainContainer
           - VideoBackground

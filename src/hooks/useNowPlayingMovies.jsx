@@ -13,7 +13,7 @@ const useNowPlayingMovies = () => {
     );
     const json = await data.json();
     // when log I AM GETTING TWO TIME RESULT (BCOZ OF STRICT MODE <App /> is wraped in strict mode in index.js for checking any inconsistency)
-    console.log("Now Playing", json.results);
+    // console.log("Now Playing", json.results);
 
     dispatch(addNowPlayingMovies(json.results));
   };

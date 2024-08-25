@@ -9,7 +9,7 @@ const MainContainer = () => {
   // this is early return
   if (!movie) return;
   // out of 20 movies get from store we want a main movie
-  const mainMovie = movie[0];
+  const mainMovie = movie[1];
   //console.log(mainMovie);
 
   const { original_title, overview, id } = mainMovie;
