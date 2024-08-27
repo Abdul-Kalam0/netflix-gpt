@@ -12,7 +12,7 @@ export const API_OPTIONS = {
   headers: {
     accept: "application/json",
     Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxNTQ4NDJkYmU1ZTg0NjA5ZWJlODY4MzZhODljZDQ3YyIsIm5iZiI6MTcyNDAwNDUzMy4yMzM4NCwic3ViIjoiNjZjMjM3NWU2M2RkZGY5M2IyZDlmODFlIiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.NpdEq1GhtxbNVyGbmnh68BbfQrPTyIySLCqE7xrhKeQ",
+      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxNTQ4NDJkYmU1ZTg0NjA5ZWJlODY4MzZhODljZDQ3YyIsIm5iZiI6MTcyNDY5Mjg0My45MzEwMzMsInN1YiI6IjY2YzIzNzVlNjNkZGRmOTNiMmQ5ZjgxZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Lj2ENm3Vw3YFjGdYbcd5WFOnvP5B6MnKYxL8OL8l8BU",
   },
 };
 
@@ -23,3 +23,5 @@ export const SUPP_LANG = [
   { identifier: "hindi", name: "hindi" },
   { identifier: "spanish", name: "spanish" },
 ];
+
+export const OPENAI_GPT_KEY = process.env.REACT_APP_OPENAI_GPT_KEY;

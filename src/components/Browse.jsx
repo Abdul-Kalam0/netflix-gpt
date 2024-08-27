@@ -13,7 +13,7 @@ const Browse = () => {
   useNowPlayingMovies();
   // fetch usePopulaMovies data from TMDB  and update store by creating the custom hook.
   usePopulaMovies();
-  // fetch usePopulaMovies data from TMDB  and update store by creating the custom hook.
+  // fetch useTopRatedMovies data from TMDB  and update store by creating the custom hook.
   useTopRatedMovies();
 
   const showGptSearch = useSelector((store) => store.gpt.showGptSearch);

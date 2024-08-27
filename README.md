@@ -37,6 +37,11 @@
     - GPT Search Bar
     - Multi-Language Feature in our app
     - Integrate GPT API's
+    - Install openAI npm package (npm install --save openai)
+    - Optimized using memoization technique
+    - Added .env file
+    - Added .env file to .gitignore
+    - Made our site Responsive
 
 # Features
 

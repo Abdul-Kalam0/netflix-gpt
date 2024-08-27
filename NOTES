@@ -39,7 +39,6 @@
             - Choose the project who are on firebase currently
                 - 1st query ans is (build) 2nd (n) 3rd(n)
     - Done
-
     # App Deployment
     - npm run build (to build the app)
     - firebase deploy
